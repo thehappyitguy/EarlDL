@@ -27,3 +27,23 @@ Before installing EarlDL, ensure the following are installed:
   ## ffmpeg
   brew install ffmpeg
   
+## Features
+	•	One command, one paste
+	•	Always produces two files:
+	•	Video file
+	•	MP3 file
+	•	Automatic folder naming:
+	•	Channel name
+	•	Upload date
+	•	Video title
+	•	Playlist support
+	•	Resume support
+	•	Metadata + thumbnails embedded
+	•	macOS folder picker
+
+## Usage
+
+earldl 'https://video-url'
+earldl --audio-only 'https://video-url'
+earldl --video-only 'https://video-url'
+
