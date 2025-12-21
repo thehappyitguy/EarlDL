@@ -43,4 +43,5 @@ Before installing EarlDL, ensure the following are installed:
 	  
 ## Installation of EarlDL
 
-curl -L https://raw.githubusercontent.com/thehappyitguy/earldl/main/install.sh | bash
+	curl -L https://raw.githubusercontent.com/thehappyitguy/earldl/main/install.sh | bash
+    chmod +x install.sh
