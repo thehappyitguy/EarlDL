@@ -20,3 +20,10 @@ Before installing EarlDL, ensure the following are installed:
   Install if you don’t have it:
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+  ## yt-dlp
+  brew install yt-dlp
+
+  ## ffmpeg
+  brew install ffmpeg
+  
