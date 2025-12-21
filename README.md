@@ -40,22 +40,4 @@ Before installing EarlDL, ensure the following are installed:
 	•	Resume support
 	•	Metadata + thumbnails embedded
 	•	macOS folder picker
-
-## Folder Structure
-
-## Single Video
-     Downloads/
-  Channel Name/
-    2025-01-21 - Video Title/
-      2025-01-21 - Video Title.mp4
-      2025-01-21 - Video Title.mp3
-      description.txt
-      subtitles.en.srt
-
-## Playlists
-     Downloads/
-  Channel Name/
-    Playlist Title/
-      2025-01-21 - Video One/
-      2025-01-22 - Video Two/
 	  
