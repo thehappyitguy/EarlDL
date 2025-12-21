@@ -29,45 +29,43 @@ Built on top of `yt-dlp`, wrapped so you never have to remember flags again.
 
 ---
 
+## Usage
+
+```bash
+earldl 'https://video-url'
+earldl --audio-only 'https://video-url'
+earldl --video-only 'https://video-url'
+
 ## Folder Structure
-
-Single video:
+## Single Video
 Downloads/
-Channel Name/
-2025-01-21 - Video Title/
-2025-01-21 - Video Title.mp4
-2025-01-21 - Video Title.mp3
-description.txt
-subtitles.en.srt
+  Channel Name/
+    2025-01-21 - Video Title/
+      2025-01-21 - Video Title.mp4
+      2025-01-21 - Video Title.mp3
+      description.txt
+      subtitles.en.srt
 
-Playlists:
+## Playlists
 Downloads/
-Channel Name/
-Playlist Title/
-2025-01-21 - Video One/
-2025-01-22 - Video Two/
+  Channel Name/
+    Playlist Title/
+      2025-01-21 - Video One/
+      2025-01-22 - Video Two/
 
----
+Requirements
 
-## Requirements
+Required
+	•	yt-dlp
+	•	ffmpeg
 
-### Required
-- `yt-dlp`
-- `ffmpeg`
+Optional
+	•	Nothing else
 
-### Optional
-- Nothing else
-
-HandBrake is **not required**.
-
----
+HandBrake is not required.
 
 ## Installation (macOS)
 
-### 1. Install dependencies
-```bash
 brew install yt-dlp ffmpeg
-
-
 
 curl -L https://raw.githubusercontent.com/thehappyitguy/earldl/main/install.sh | bash
