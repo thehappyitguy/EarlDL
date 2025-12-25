@@ -46,6 +46,7 @@ if [ "$MODE" = "video" ] || [ "$MODE" = "both" ]; then
   yt-dlp "${COMMON_OPTS[@]}" \
     -f "bestvideo[height<=2160]+bestaudio/best" \
     --merge-output-format mp4 \
+    --sleep-interval 10 \
     "$URL"
 fi
 
@@ -53,5 +54,6 @@ if [ "$MODE" = "audio" ] || [ "$MODE" = "both" ]; then
   yt-dlp "${COMMON_OPTS[@]}" \
     -x --audio-format mp3 --audio-quality 0 \
     --embed-thumbnail --add-metadata \
+    --sleep-interval 10 \
     "$URL"
 fi
